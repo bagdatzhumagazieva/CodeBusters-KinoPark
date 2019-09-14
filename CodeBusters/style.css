@@ -1,0 +1,319 @@
+
+header{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+.Header{
+    border-bottom: 1px solid grey;
+    display: flex;
+    padding-top: 20px;
+
+
+
+}
+.ImageIcon{
+    margin-left: 130px;
+}
+.nav_blocks{
+    margin-left: 50px;
+}
+.Icons{
+    width: 12%;
+    height: 10hv;
+    
+}
+.alph_o_1{
+    top: 2px;
+}
+.Country{
+    display: flex;
+    background: #C31D28;
+    height: 4.2vh;
+    border-radius: 3px;
+}
+.map_icon{
+    height: 11px;
+    margin-top:5px;
+    width:11px;
+}
+
+.choose_icon{
+    height: 11px;
+    margin-top:5px;
+    width:11px;
+}
+.choose_country{
+    padding: 6px 8px;
+    display: flex;
+}
+
+.country_name{
+    -webkit-appearance: none;
+    color: black;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    position: relative;
+}
+.country_name select{
+    border: none;
+    background: #C31D28;
+    color: white;
+
+}
+
+.ListOfWords{
+    display: flex;
+}
+.main_words{
+    color: white;
+    font-size: 14.5px;
+    padding: 10px 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+.login_register{
+    margin-left: 46px;
+}
+
+.main_words:hover{
+    color: #C31D28;
+    border-bottom: 2px solid #C31D28;
+    padding-bottom: 20px;
+}
+
+.choose_language select{
+    background: black;
+    color: white;
+    border: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.Schedule{
+    background: linear-gradient(101.42deg, #0E0E0E 0%, #210A0B 100%);
+    height: 100%;
+    display: flex;
+}
+.ScheduleLeft{
+    display: flex;
+    border-right: 1px solid #4E4E4E;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.ScheduleWords{
+    padding: 11px 50px;
+    margin-left: 130px;
+    color: white;
+    line-height: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+}
+.boldword{
+    font-weight: bold;
+
+}
+.imax{
+    margin-top: 34px;
+    color: #2395FF;
+}
+
+.TypeWords{
+    padding: 10px 30px;
+    margin-left: -5px;
+}
+.WatchUp{
+    display: flex;
+}
+.WatchDown{
+    display: flex;
+}
+.ListUp{
+    padding: 25px 90px;
+    font-family: Open Sans;
+    font-style: normal;
+    color: white;
+}
+.ListUp:last-child{
+    padding-left: 270px;
+}
+
+.todayfilm{
+    font-weight: bold;
+}
+.ListOfFilm:first-child{
+    padding-top: 0;
+    padding-left: 90px;
+}
+.ListOfFilm{
+    padding: 0 38px;
+}
+.TitleOfFilm{
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.MobileMenu{
+    display: none;
+}
+
+.MenuPages{
+    display: none;
+}
+
+.MobileUpTitle{
+    display: none;
+}
+.MobileDownTitle{
+    display: none;
+}
+.MobileRectanle{
+    display: none;
+}
+
+.MobileFood{
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .ListOfWords{
+        display: none;
+    }   
+
+    .Schedule{
+        display: none;
+        height: 78%;
+        background: linear-gradient(101.42deg, #0E0E0E 0%, #210A0B 100%);
+
+    }
+    .ScheduleLeft{
+        display: block;
+        border-right:none;
+        margin-bottom: 10px;
+    }
+    .ScheduleRight{
+        display: none;
+    }
+    .ImageIcon{
+        width: 100px;
+        margin-left: -40px;
+    }
+
+    .Country{
+        margin-left: 30px;
+    }
+    .choose_country{
+        padding: 0px 10px;
+    }
+    .map_icon{
+        margin-top:8px;
+    }
+    header{
+        height: 100vh;
+    }
+    .MobileMenu{
+        display: block;
+        margin-left: 25px;
+        margin-top: 5px;
+    } 
+    .choose_language{
+        font-size: 17px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* display: none; */
+    }  
+    .login_register{
+        margin-top:-8px;
+        margin-left: -35px ; 
+        /* color: black; */
+    }
+    .main_words{
+        /* color: white; */
+        font-size: 17px;
+        padding: 7px 8px;
+        /* font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold; */
+    }
+    .Header{
+        border-bottom: none;
+    }
+    /* .nav_blocks{
+        margin-left: 10px;
+    } */
+    .DeleteIcon{
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .ExtraInMobile{
+        display: none;
+    }
+    .MobileUpTitle{
+        display: block;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: #AAAAAA;
+        padding: 10px 12px;
+    }
+    .MobileDownTitle{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #DDDDDD;
+        display: flex;
+        padding: 10px 12px;
+                
+
+
+    }
+    .MobileArrow{
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .ScheduleWords{
+        padding: 10px 12px;
+        margin-left: 0px;
+        font-weight: bold;
+    }
+    .imax{
+        margin-top: 0px;
+        color: #2395FF;
+    }
+    .MobileRectanle{
+        display: block;
+    }
+    .MobileFood{
+        height: 150vh;
+        background: linear-gradient(101.42deg, #0E0E0E 0%, #210A0B 100%);
+
+    }
+    .FoodLastWord{
+        font-weight: bold;
+        font-size: 16px;
+        opacity: 0.33;
+    }
+    .MobileTelNum{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding: 10px 12px;
+
+    }
+
+}

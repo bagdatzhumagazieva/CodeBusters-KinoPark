@@ -1,0 +1,59 @@
+.KinoPark{
+    background: linear-gradient(101.42deg, #0E0E0E 0%, #210A0B 100%);
+    height: 100%;
+    /* width: 100%; */
+    display: none;
+}
+
+.CommonParts:first-child{
+    margin-left: 108px;
+}
+
+.KinoPart_words{
+    padding: 7px 0 ;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+
+.FirstPartKinoLast{
+    padding-top:50px;
+    color: #FFD362;
+}
+.CommonParts{
+    width: 18%;
+
+    padding-left: 73px;
+    margin-top: 30px;
+
+}
+.KinoParkSecondPartLast:first-child{
+    padding-left: 0;
+}
+.KinoParkSecondPartLast{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.KinoParkThirdLineRec{
+    margin-top: 40px;
+}
+
+.Support{
+    font-size: 11px;
+    Padding-top: 35px;
+}
+
+.TelNum{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+    .KinoPark{
+        display: none;
+    }
+}
